@@ -6,5 +6,6 @@ Login
     log  your super secret password is ${password}
 
 *** Variables ***
-${Username}  Any username
-${Password}  Customer password
+${Username}  preethia1221@gmail.com
+${Password}  Highheels@123
+

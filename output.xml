@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.2 on win32)" generated="20220209 23:01:14.645" rpa="false" schemaversion="2">
+<suite id="s1" name="Central" source="C:\Users\ppprath\Downloads\pomelo\central.robot">
+<test id="s1-t1" name="Testcase 1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.officemate.co.th/en</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220209 23:01:14.990" level="INFO">Opening browser 'Chrome' to base url 'https://www.officemate.co.th/en'.</msg>
+<status status="PASS" starttime="20220209 23:01:14.990" endtime="20220209 23:01:22.258"/>
+</kw>
+<kw name="Click Image" library="SeleniumLibrary">
+<arg>//img[@id='img-image-1643970239616']</arg>
+<doc>Clicks an image identified by ``locator``.</doc>
+<msg timestamp="20220209 23:01:22.278" level="INFO">Clicking image '//img[@id='img-image-1643970239616']'.</msg>
+<msg timestamp="20220209 23:01:23.277" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-10.png"&gt;&lt;img src="selenium-screenshot-10.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220209 23:01:23.288" level="FAIL">Input with locator '//img[@id='img-image-1643970239616']' not found.</msg>
+<status status="FAIL" starttime="20220209 23:01:22.277" endtime="20220209 23:01:23.288"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220209 23:01:23.289" endtime="20220209 23:01:23.289"/>
+</kw>
+<status status="FAIL" starttime="20220209 23:01:14.989" endtime="20220209 23:01:23.290">Input with locator '//img[@id='img-image-1643970239616']' not found.</status>
+</test>
+<status status="FAIL" starttime="20220209 23:01:14.648" endtime="20220209 23:01:23.294"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Central">Central</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
